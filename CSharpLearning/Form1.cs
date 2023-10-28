@@ -44,5 +44,11 @@ namespace CSharpLearning
             obj.ThrowMethod();
             obj.ThrowExMethod();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            GenericsExample<bool> obj = new GenericsExample<bool>();
+            obj.GenericMethod<bool>(false, false);
+        }
     }
 }
