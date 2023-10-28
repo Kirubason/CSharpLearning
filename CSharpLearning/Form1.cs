@@ -37,5 +37,12 @@ namespace CSharpLearning
             StringCharacterCount obj = new StringCharacterCount();
             obj.StringCharacterCountMethod();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ThrowVsThrowEx obj = new ThrowVsThrowEx();
+            obj.ThrowMethod();
+            obj.ThrowExMethod();
+        }
     }
 }
