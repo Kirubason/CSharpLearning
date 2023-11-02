@@ -50,5 +50,12 @@ namespace CSharpLearning
             GenericsExample<bool> obj = new GenericsExample<bool>();
             obj.GenericMethod<bool>(false, false);
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            LinQExample obj = new LinQExample();
+            obj.LinQMethod();
+            obj.LinQMethodLmbda();
+        }
     }
 }
