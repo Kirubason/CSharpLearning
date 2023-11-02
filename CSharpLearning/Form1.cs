@@ -63,5 +63,18 @@ namespace CSharpLearning
             YieldKeyword obj = new YieldKeyword();
             obj.YieldMethodMain();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            ConstantReadOnlyStatic obj = new ConstantReadOnlyStatic(3);
+            obj.ConstantReadOnlyStaticMethod();
+
+            ConstantReadOnlyStatic obj1 = new ConstantReadOnlyStatic();
+            ConstantReadOnlyStatic obj2 = new ConstantReadOnlyStatic();
+            ConstantReadOnlyStatic obj3 = new ConstantReadOnlyStatic();
+            ConstantReadOnlyStatic obj4 = new ConstantReadOnlyStatic();
+            ConstantReadOnlyStatic obj5 = new ConstantReadOnlyStatic();
+
+        }
     }
 }
