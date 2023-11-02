@@ -60,6 +60,7 @@
     <Compile Include="ReverseString.cs" />
     <Compile Include="StringCharacterCount.cs" />
     <Compile Include="ThrowVsThrowEx.cs" />
+    <Compile Include="YieldKeyword.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

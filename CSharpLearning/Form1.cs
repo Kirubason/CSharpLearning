@@ -57,5 +57,11 @@ namespace CSharpLearning
             obj.LinQMethod();
             obj.LinQMethodLmbda();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            YieldKeyword obj = new YieldKeyword();
+            obj.YieldMethodMain();
+        }
     }
 }
