@@ -76,5 +76,15 @@ namespace CSharpLearning
             ConstantReadOnlyStatic obj5 = new ConstantReadOnlyStatic();
 
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            ParentInheritenceClass bank = new ChildInheritenceClass();
+            bank.BankName();
+
+            ParentInheritenceClass obj1 = new ChildInheritenceClass();
+            ChildInheritenceClass obj2 = new ChildInheritenceClass();
+            ParentInheritenceClass obj3 = new ParentInheritenceClass();
+        }
     }
 }
